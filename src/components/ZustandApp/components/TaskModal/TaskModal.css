@@ -1,0 +1,22 @@
+.task_modal {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+
+  .modal_content {
+    background: white;
+    padding: 1rem;
+    border-radius: 4px;
+
+    input {
+      margin-right: .5rem;
+    }
+  }
+}
